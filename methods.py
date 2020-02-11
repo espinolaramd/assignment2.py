@@ -1,3 +1,4 @@
+import assignment2
 
 def sort_the_list():
     lst.sort()
@@ -69,8 +70,11 @@ def remove_odd_numbers():
         if (i%2 != 0) :
             lst.remove(i)
             print(lst)
+
 def check_number ():
     x = int(input("Type a number to check if it is on the list "))
     if x not in lst:
         print("I not there")
     else: print("Yes it is")
+
+sort_the_list()
