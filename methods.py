@@ -1,15 +1,3 @@
-#Diego Espinola
-#02.10.2020
-#Assignment 2- List Operations
-from collections import Counter
-import methods
-lst = []
-
-print("Please enter 5 values:")
-for i in range (0,5):
-    values = int(input())
-    lst.append(values)
-print(lst)
 
 def sort_the_list():
     lst.sort()
@@ -86,4 +74,3 @@ def check_number ():
     if x not in lst:
         print("I not there")
     else: print("Yes it is")
-
